@@ -1,0 +1,7 @@
+{
+  "name": "kirby-siteoption",
+  "description": "Kirby CMS Tag to get values of 'site'-blueprint field",
+  "version": "1.0.0",
+  "type": "kirby-plugin",
+  "license": "MIT"
+}
