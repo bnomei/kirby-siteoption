@@ -2,7 +2,7 @@
 
 ![GitHub release](https://img.shields.io/github/release/bnomei/kirby-siteoption.svg?maxAge=1800) ![License](https://img.shields.io/github/license/mashape/apistatus.svg) ![Kirby Version](https://img.shields.io/badge/Kirby-2.3%2B-red.svg)
 
-Kirby CMS Tag to get values of 'site'-blueprint fields.
+Kirby CMS Tag to get values of 'site'-blueprint text/textarea-fields.
 
 ## Requirements
 
@@ -19,13 +19,13 @@ kirby plugin:install bnomei/kirby-siteoption
 ### Git Submodule
 
 ```
-$ git submodule add https://github.com/bnomei/kirby-siteoption.git site/plugins/panel-siteoption
+$ git submodule add https://github.com/bnomei/kirby-siteoption.git site/plugins/kirby-siteoption
 ```
 
 ### Copy and Paste
 
 1. [Download](https://github.com/bnomei/kirby-siteoption/archive/master.zip) the contents of this repository as ZIP-file.
-2. Rename the extracted folder to `panel-siteoption` and copy it into the `site/plugins/` directory in your Kirby project.
+2. Rename the extracted folder to `kirby-siteoption` and copy it into the `site/plugins/` directory in your Kirby project.
 
 ## Usage
 
@@ -41,6 +41,12 @@ When editing your pages in the Panel you want to get that value inside a textfie
 
 ```
 (option: contactadress)
+```
+
+Or you can get the value of the field parsed with `kirbytext()`.
+
+```
+(option: contactadress output: kirbytext)
 ```
 
 ## Disclaimer
