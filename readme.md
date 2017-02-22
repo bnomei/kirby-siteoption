@@ -8,7 +8,7 @@ Kirby CMS Tag to get values of 'site'-blueprint field.
 
 - [**Kirby**](https://getkirby.com/) 2.3+
 
-### Installation
+## Installation
 
 ### [Kirby CLI](https://github.com/getkirby/cli)
 
@@ -31,7 +31,6 @@ $ git submodule add https://github.com/bnomei/kirby-siteoption.git site/plugins/
 
 ```
 (option: my-site-blueprint-fieldname)
-
 ```
 
 ## Disclaimer
