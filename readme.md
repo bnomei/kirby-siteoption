@@ -2,7 +2,7 @@
 
 ![GitHub release](https://img.shields.io/github/release/bnomei/kirby-siteoption.svg?maxAge=1800) ![License](https://img.shields.io/github/license/mashape/apistatus.svg) ![Kirby Version](https://img.shields.io/badge/Kirby-2.3%2B-red.svg)
 
-Kirby CMS Tag to get values of 'site'-blueprint field.
+Kirby CMS Tag to get values of 'site'-blueprint fields.
 
 ## Requirements
 
@@ -29,8 +29,18 @@ $ git submodule add https://github.com/bnomei/kirby-siteoption.git site/plugins/
 
 ## Usage
 
+Let's assume you have `site/blueprint/site.yml` with a field named `contactadress`.
+
 ```
-(option: my-site-blueprint-fieldname)
+  contactadress:
+    label: Contact Adress
+    type:  textarea
+```
+
+When editing your pages in the Panel you want to get that value inside a textfield. This plugin makes that easy.
+
+```
+(option: contactadress)
 ```
 
 ## Disclaimer
