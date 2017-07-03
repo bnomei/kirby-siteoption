@@ -4,6 +4,8 @@
 
 Kirby CMS Tag to get values of 'site'-blueprint text/textarea-fields.
 
+This plugin is free but if you use it in a commercial project please consider to [make a donation 🍻](https://www.paypal.me/bnomei/2).
+
 ## Requirements
 
 - [**Kirby**](https://getkirby.com/) 2.3+
