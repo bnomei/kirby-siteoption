@@ -42,13 +42,13 @@ Let's assume you have `site/blueprint/site.yml` with a field named `contactadres
 When editing your pages in the Panel you want to get that value inside a textfield. This plugin makes that easy.
 
 ```
-(option: contactadress)
+(siteoption: contactadress)
 ```
 
 Or you can get the value of the field parsed with `kirbytext()`.
 
 ```
-(option: contactadress output: kirbytext)
+(siteoption: contactadress output: kirbytext)
 ```
 
 ## Disclaimer
